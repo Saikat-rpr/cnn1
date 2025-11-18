@@ -3,6 +3,23 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# ignore datasets
+data/
+*.zip
+
+# ignore model weights
+*.pth
+*.pt
+*.h5
+
+# python/cache
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+
 # C extensions
 *.so
 
