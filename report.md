@@ -1,4 +1,4 @@
-# Collaborative CNN Project Report
+# Assignment: Fork-Based Collaborative CNN Development
 
 ## 1. Introduction
 
