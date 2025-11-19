@@ -153,7 +153,7 @@ def run_training(args):
             torch.save(model.state_dict(), args.model_out)
             print(f"  >> Saved new best model to {args.model_out}")
 
-    # evaluate best model on test set
+    
     model.load_state_dict(torch.load(args.model_out, map_location=device))
     test_loss, test_acc = loop_one_epoch(
         model, test_loader, criterion, optimizer, device, train=False
