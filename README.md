@@ -43,6 +43,7 @@ These links show the full collaborative workflow.
 
 ## 3. Repository Structure
 
+```text
 cnn1/
   models/
     model_v1.py
@@ -63,6 +64,7 @@ cnn1/
   report.md
   README.md
   requirements.txt
+```
 
 
 ---
