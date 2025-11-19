@@ -1,0 +1,24 @@
+name: Check repository structure and metrics
+
+on:
+  push:
+    branches: [ main, dev_user1 ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  check-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Run structure and metrics check
+        run: python utils/check_structure.py
+
