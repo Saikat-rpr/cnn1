@@ -2,9 +2,6 @@
 
 This repository implements a collaborative image classification project using Convolutional Neural Networks (CNNs) in PyTorch.
 
-## Team & Datasets
-
-Each user trains a separate CNN model on their own dataset, and then we cross-test the models on the *other* dataset without sharing any raw images.
 
 ## Folder Structure
 
